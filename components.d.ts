@@ -5,6 +5,8 @@
 declare module 'vue' {
   export interface GlobalComponents {
     Banner: typeof import('./src/components/common/Banner.vue')['default']
+    Chat: typeof import('./src/components/layout/chat/index.vue')['default']
+    ChatList: typeof import('./src/components/layout/chat/ChatList.vue')['default']
     CoverPlay: typeof import('./src/components/common/CoverPlay.vue')['default']
     ElAffix: typeof import('element-plus/es')['ElAffix']
     ElAlert: typeof import('element-plus/es')['ElAlert']
@@ -25,10 +27,12 @@ declare module 'vue' {
     Footer: typeof import('./src/components/layout/footer/Footer.vue')['default']
     Header: typeof import('./src/components/layout/header/Header.vue')['default']
     IconPark: typeof import('./src/components/common/IconPark.vue')['default']
+    Leftnav: typeof import('./src/components/layout/leftnav/index.vue')['default']
     Loading: typeof import('element-plus/es')['ElLoadingDirective']
     Menu: typeof import('./src/components/layout/menu/Menu.vue')['default']
     MenuList: typeof import('./src/components/layout/menu/MenuList.vue')['default']
     MoreText: typeof import('./src/components/common/MoreText.vue')['default']
+    Nav: typeof import('./src/components/layout/left/Nav.vue')['default']
     PlayerAction: typeof import('./src/components/layout/footer/PlayerAction.vue')['default']
     PlayerController: typeof import('./src/components/layout/footer/PlayerController.vue')['default']
     PlayerSlider: typeof import('./src/components/layout/footer/PlayerSlider.vue')['default']

@@ -1,15 +1,18 @@
 <template>
-  <div class="bg-main bg-opacity-70 h-screen flex flex-col">
-
-    <MenuList/>
-  </div>
+  <div class="menu-box">头像</div>
 </template>
 
 <script setup lang="ts">
-
-import MenuList from "./MenuList.vue";
+// import MenuList from "./MenuList.vue";
 </script>
 
-<style scoped>
-
+<style scoped lang="scss">
+.menu-box {
+  background: #cacfd5;
+  width: 60px;
+  height: 100vh;
+  // position: fixed;
+  // left: 0;
+  // top: 0;
+}
 </style>

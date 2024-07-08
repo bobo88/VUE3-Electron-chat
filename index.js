@@ -4,8 +4,8 @@ const waitOn = require('wait-on')
 
 async function createWindow() {
   const win = new BrowserWindow({
-    width: 1000,
-    height: 800,
+    width: 1110,
+    height: 950,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'), // 如果有 preload.js
       nodeIntegration: true,
