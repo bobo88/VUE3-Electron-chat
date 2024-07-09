@@ -1,6 +1,11 @@
 <template>
   <div class="chat-box">
-    <ul>
+    <div class="search-box">
+      <el-input placeholder="请输入内容" v-model="input" size="mini" clearable>
+      </el-input>
+    </div>
+
+    <ul class="chat-list">
       <li>111</li>
       <li>111</li>
       <li>111</li>
