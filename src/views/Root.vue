@@ -2,12 +2,12 @@
   <!-- 添加一个可拖动的标题栏区域 -->
   <div class="title-bar"></div>
   <div class="main-box w-screen h-screen flex items-stretch overflow-hidden">
-    <div class="left-menu">
-      <Menu />
-    </div>
-    <div class="chat-list">
-      <ChatList />
-    </div>
+    <!-- 左侧栏 -->
+    <Menu />
+
+    <!-- 聊天对话列表 -->
+    <ChatList />
+
     <div class="container mx-auto">
       <RouterView />
     </div>

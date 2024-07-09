@@ -27,7 +27,7 @@
 .menu-box {
   width: 60px;
   height: 100vh;
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
   padding: 60px 15px 30px;
