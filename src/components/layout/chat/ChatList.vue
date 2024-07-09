@@ -1,7 +1,13 @@
 <template>
   <div class="chat-box">
     <div class="search-box">
-      <el-input placeholder="搜索" v-model="input" size="mini" clearable>
+      <el-input
+        class="custom-input"
+        placeholder="搜索"
+        v-model="input"
+        size="mini"
+        clearable
+      >
       </el-input>
 
       <div class="plus-opt">
@@ -11,27 +17,150 @@
 
     <div class="chat-inner-box">
       <ul class="chat-list">
-        <li>abcc</li>
-        <li>111</li>
-        <li>111</li>
-        <li>111</li>
-        <li>111</li>
-        <li>111</li>
-        <li>111</li>
-        <li>111</li>
-        <li>111</li>
-        <li>111</li>
-        <li>111</li>
-        <li>111</li>
-        <li>111</li>
-        <li>111</li>
-        <li>333</li>
-        <li>111</li>
-        <li>111</li>
-        <li>333</li>
-        <li>111</li>
-        <li>111</li>
-        <li>333</li>
+        <li class="chat-item">
+          <div class="avatar"><img src="@/assets/logo.svg" alt="" /></div>
+          <div class="chat-info">
+            <div class="name">一（13）班家长群</div>
+            <div class="message">
+              班主任 彭老师：大家暑假做好小朋友的学习指导
+            </div>
+          </div>
+        </li>
+        <li class="chat-item">
+          <div class="avatar"><img src="@/assets/img/logo.png" alt="" /></div>
+          <div class="chat-info">
+            <div class="name">一（13）班家长群</div>
+            <div class="message">
+              班主任 彭老师：大家暑假做好小朋友的学习指导
+            </div>
+          </div>
+        </li>
+        <li class="chat-item">
+          <div class="avatar"><img src="@/assets/logo.svg" alt="" /></div>
+          <div class="chat-info">
+            <div class="name">一（13）班家长群</div>
+            <div class="message">
+              班主任 彭老师：大家暑假做好小朋友的学习指导
+            </div>
+          </div>
+        </li>
+        <li class="chat-item">
+          <div class="avatar"><img src="@/assets/img/logo.png" alt="" /></div>
+          <div class="chat-info">
+            <div class="name">一（13）班家长群</div>
+            <div class="message">
+              班主任 彭老师：大家暑假做好小朋友的学习指导
+            </div>
+          </div>
+        </li>
+        <li class="chat-item">
+          <div class="avatar"><img src="@/assets/logo.svg" alt="" /></div>
+          <div class="chat-info">
+            <div class="name">一（13）班家长群</div>
+            <div class="message">
+              班主任 彭老师：大家暑假做好小朋友的学习指导
+            </div>
+          </div>
+        </li>
+        <li class="chat-item">
+          <div class="avatar"><img src="@/assets/img/logo.png" alt="" /></div>
+          <div class="chat-info">
+            <div class="name">一（13）班家长群</div>
+            <div class="message">
+              班主任 彭老师：大家暑假做好小朋友的学习指导
+            </div>
+          </div>
+        </li>
+        <li class="chat-item">
+          <div class="avatar"><img src="@/assets/logo.svg" alt="" /></div>
+          <div class="chat-info">
+            <div class="name">一（13）班家长群</div>
+            <div class="message">
+              班主任 彭老师：大家暑假做好小朋友的学习指导
+            </div>
+          </div>
+        </li>
+        <li class="chat-item">
+          <div class="avatar"><img src="@/assets/img/logo.png" alt="" /></div>
+          <div class="chat-info">
+            <div class="name">一（13）班家长群</div>
+            <div class="message">
+              班主任 彭老师：大家暑假做好小朋友的学习指导
+            </div>
+          </div>
+        </li>
+        <li class="chat-item">
+          <div class="avatar"><img src="@/assets/logo.svg" alt="" /></div>
+          <div class="chat-info">
+            <div class="name">一（13）班家长群</div>
+            <div class="message">
+              班主任 彭老师：大家暑假做好小朋友的学习指导
+            </div>
+          </div>
+        </li>
+        <li class="chat-item">
+          <div class="avatar"><img src="@/assets/img/logo.png" alt="" /></div>
+          <div class="chat-info">
+            <div class="name">一（13）班家长群</div>
+            <div class="message">
+              班主任 彭老师：大家暑假做好小朋友的学习指导
+            </div>
+          </div>
+        </li>
+        <li class="chat-item">
+          <div class="avatar"><img src="@/assets/logo.svg" alt="" /></div>
+          <div class="chat-info">
+            <div class="name">一（13）班家长群</div>
+            <div class="message">
+              班主任 彭老师：大家暑假做好小朋友的学习指导
+            </div>
+          </div>
+        </li>
+        <li class="chat-item">
+          <div class="avatar"><img src="@/assets/img/logo.png" alt="" /></div>
+          <div class="chat-info">
+            <div class="name">一（13）班家长群</div>
+            <div class="message">
+              班主任 彭老师：大家暑假做好小朋友的学习指导
+            </div>
+          </div>
+        </li>
+        <li class="chat-item">
+          <div class="avatar"><img src="@/assets/logo.svg" alt="" /></div>
+          <div class="chat-info">
+            <div class="name">一（13）班家长群</div>
+            <div class="message">
+              班主任 彭老师：大家暑假做好小朋友的学习指导
+            </div>
+          </div>
+        </li>
+        <li class="chat-item">
+          <div class="avatar"><img src="@/assets/img/logo.png" alt="" /></div>
+          <div class="chat-info">
+            <div class="name">一（13）班家长群</div>
+            <div class="message">
+              班主任 彭老师：大家暑假做好小朋友的学习指导
+            </div>
+          </div>
+        </li>
+        <li class="chat-item">
+          <div class="avatar"><img src="@/assets/logo.svg" alt="" /></div>
+          <div class="chat-info">
+            <div class="name">一（13）班家长群</div>
+            <div class="message">
+              班主任 彭老师：大家暑假做好小朋友的学习指导
+            </div>
+          </div>
+        </li>
+        <li class="chat-item">
+          <div class="avatar"><img src="@/assets/img/logo.png" alt="" /></div>
+          <div class="chat-info">
+            <div class="name">一（13）班家长群</div>
+            <div class="message">
+              班主任 彭老师：大家暑假做好小朋友的学习指导
+            </div>
+          </div>
+        </li>
       </ul>
     </div>
   </div>
@@ -41,6 +170,17 @@
 import { Plus } from '@element-plus/icons-vue'
 // xxx
 </script>
+
+<style lang="scss">
+.custom-input {
+  height: 28px;
+  line-height: 28px;
+  .el-input__inner {
+    height: 28px;
+    line-height: 28px;
+  }
+}
+</style>
 
 <style scoped lang="scss">
 .chat-box {
@@ -68,16 +208,16 @@ import { Plus } from '@element-plus/icons-vue'
     width: 260px;
     height: 60px;
     background: #f7f7f7;
-    padding: 14px 60px 14px 20px;
+    padding: 16px 52px 16px 14px;
     gap: 8px;
     border-right: 1px solid #eee;
     .plus-opt {
       position: absolute;
-      top: 14px;
-      right: 14px;
-      width: 32px;
-      height: 32px;
-      border-radius: 6px;
+      top: 16px;
+      right: 16px;
+      width: 28px;
+      height: 28px;
+      border-radius: 4px;
       background: #e5e5e5;
       display: flex;
       align-items: center;
@@ -89,10 +229,43 @@ import { Plus } from '@element-plus/icons-vue'
     li {
       line-height: 68px;
       height: 68px;
-      padding: 0 20px;
+      padding: 14px 14px;
+      display: flex;
+      gap: 10px;
       &:hover {
         background: #e5e5e5;
         cursor: pointer;
+      }
+      .avatar {
+        padding: 2px;
+        width: 36px;
+        height: 36px;
+        border-radius: 4px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .chat-info {
+        height: 40px;
+        line-height: 20px;
+        .name {
+          width: 182px;
+          height: 20px;
+          line-height: 20px;
+          color: #000;
+          font-size: 14px;
+        }
+        .message {
+          width: 170px;
+          height: 20px;
+          line-height: 20px;
+          color: #999;
+          font-size: 12px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
       }
     }
   }

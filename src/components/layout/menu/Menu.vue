@@ -28,6 +28,7 @@
   width: 60px;
   height: 100vh;
   position: absolute;
+  z-index: 999;
   left: 0;
   top: 0;
   padding: 60px 15px 30px;

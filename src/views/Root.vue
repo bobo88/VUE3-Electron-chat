@@ -8,7 +8,7 @@
     <!-- 聊天对话列表 -->
     <ChatList />
 
-    <div class="container mx-auto">
+    <div class="container-box">
       <RouterView />
     </div>
   </div>
@@ -24,10 +24,12 @@ import ChatList from '@/components/layout/chat/ChatList.vue'
   -webkit-app-region: drag;
   height: 60px; /* 根据需要设置合适的高度 */
   background-color: #f7f7f7; /* 选择合适的背景颜色 */
+  border-bottom: 1px solid #eee;
 }
 .main-box {
   padding-top: 60px;
   position: fixed;
+  z-index: 9;
   top: 0;
   left: 0;
   right: 0;
@@ -37,5 +39,14 @@ import ChatList from '@/components/layout/chat/ChatList.vue'
   overflow: hidden;
   width: 100%;
   height: 100vh;
+  .container-box {
+    padding-left: 320px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+    top: -60px;
+    left: 0;
+  }
 }
 </style>
