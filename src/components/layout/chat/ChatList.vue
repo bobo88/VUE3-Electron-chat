@@ -20,7 +20,7 @@
         <li class="chat-item">
           <div class="avatar"><img src="@/assets/logo.svg" alt="" /></div>
           <div class="chat-info">
-            <div class="name">一（13）班家长群</div>
+            <div class="name">一（12）班家长群</div>
             <div class="message">
               班主任 彭老师：大家暑假做好小朋友的学习指导
             </div>
@@ -29,7 +29,7 @@
         <li class="chat-item">
           <div class="avatar"><img src="@/assets/img/logo.png" alt="" /></div>
           <div class="chat-info">
-            <div class="name">一（13）班家长群</div>
+            <div class="name">一（12）班家长群</div>
             <div class="message">
               班主任 彭老师：大家暑假做好小朋友的学习指导
             </div>
@@ -38,7 +38,7 @@
         <li class="chat-item">
           <div class="avatar"><img src="@/assets/logo.svg" alt="" /></div>
           <div class="chat-info">
-            <div class="name">一（13）班家长群</div>
+            <div class="name">一（12）班家长群</div>
             <div class="message">
               班主任 彭老师：大家暑假做好小朋友的学习指导
             </div>
@@ -47,7 +47,7 @@
         <li class="chat-item">
           <div class="avatar"><img src="@/assets/img/logo.png" alt="" /></div>
           <div class="chat-info">
-            <div class="name">一（13）班家长群</div>
+            <div class="name">一（12）班家长群</div>
             <div class="message">
               班主任 彭老师：大家暑假做好小朋友的学习指导
             </div>
@@ -56,7 +56,7 @@
         <li class="chat-item">
           <div class="avatar"><img src="@/assets/logo.svg" alt="" /></div>
           <div class="chat-info">
-            <div class="name">一（13）班家长群</div>
+            <div class="name">一（12）班家长群</div>
             <div class="message">
               班主任 彭老师：大家暑假做好小朋友的学习指导
             </div>
@@ -65,7 +65,7 @@
         <li class="chat-item">
           <div class="avatar"><img src="@/assets/img/logo.png" alt="" /></div>
           <div class="chat-info">
-            <div class="name">一（13）班家长群</div>
+            <div class="name">一（12）班家长群</div>
             <div class="message">
               班主任 彭老师：大家暑假做好小朋友的学习指导
             </div>
@@ -74,7 +74,7 @@
         <li class="chat-item">
           <div class="avatar"><img src="@/assets/logo.svg" alt="" /></div>
           <div class="chat-info">
-            <div class="name">一（13）班家长群</div>
+            <div class="name">一（12）班家长群</div>
             <div class="message">
               班主任 彭老师：大家暑假做好小朋友的学习指导
             </div>
@@ -83,7 +83,7 @@
         <li class="chat-item">
           <div class="avatar"><img src="@/assets/img/logo.png" alt="" /></div>
           <div class="chat-info">
-            <div class="name">一（13）班家长群</div>
+            <div class="name">一（12）班家长群</div>
             <div class="message">
               班主任 彭老师：大家暑假做好小朋友的学习指导
             </div>
@@ -92,7 +92,7 @@
         <li class="chat-item">
           <div class="avatar"><img src="@/assets/logo.svg" alt="" /></div>
           <div class="chat-info">
-            <div class="name">一（13）班家长群</div>
+            <div class="name">一（12）班家长群</div>
             <div class="message">
               班主任 彭老师：大家暑假做好小朋友的学习指导
             </div>
@@ -101,7 +101,7 @@
         <li class="chat-item">
           <div class="avatar"><img src="@/assets/img/logo.png" alt="" /></div>
           <div class="chat-info">
-            <div class="name">一（13）班家长群</div>
+            <div class="name">一（12）班家长群</div>
             <div class="message">
               班主任 彭老师：大家暑假做好小朋友的学习指导
             </div>
@@ -110,7 +110,7 @@
         <li class="chat-item">
           <div class="avatar"><img src="@/assets/logo.svg" alt="" /></div>
           <div class="chat-info">
-            <div class="name">一（13）班家长群</div>
+            <div class="name">一（12）班家长群</div>
             <div class="message">
               班主任 彭老师：大家暑假做好小朋友的学习指导
             </div>
@@ -119,7 +119,7 @@
         <li class="chat-item">
           <div class="avatar"><img src="@/assets/img/logo.png" alt="" /></div>
           <div class="chat-info">
-            <div class="name">一（13）班家长群</div>
+            <div class="name">一（12）班家长群</div>
             <div class="message">
               班主任 彭老师：大家暑假做好小朋友的学习指导
             </div>
@@ -128,7 +128,7 @@
         <li class="chat-item">
           <div class="avatar"><img src="@/assets/logo.svg" alt="" /></div>
           <div class="chat-info">
-            <div class="name">一（13）班家长群</div>
+            <div class="name">一（12）班家长群</div>
             <div class="message">
               班主任 彭老师：大家暑假做好小朋友的学习指导
             </div>
@@ -137,7 +137,7 @@
         <li class="chat-item">
           <div class="avatar"><img src="@/assets/img/logo.png" alt="" /></div>
           <div class="chat-info">
-            <div class="name">一（13）班家长群</div>
+            <div class="name">一（12）班家长群</div>
             <div class="message">
               班主任 彭老师：大家暑假做好小朋友的学习指导
             </div>
@@ -146,7 +146,7 @@
         <li class="chat-item">
           <div class="avatar"><img src="@/assets/logo.svg" alt="" /></div>
           <div class="chat-info">
-            <div class="name">一（13）班家长群</div>
+            <div class="name">一（12）班家长群</div>
             <div class="message">
               班主任 彭老师：大家暑假做好小朋友的学习指导
             </div>
@@ -155,7 +155,7 @@
         <li class="chat-item">
           <div class="avatar"><img src="@/assets/img/logo.png" alt="" /></div>
           <div class="chat-info">
-            <div class="name">一（13）班家长群</div>
+            <div class="name">一（12）班家长群</div>
             <div class="message">
               班主任 彭老师：大家暑假做好小朋友的学习指导
             </div>

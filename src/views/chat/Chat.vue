@@ -1,12 +1,12 @@
 <template>
   <div class="chat-box">
-    <h3 class="chat-title">一（13）班家长群</h3>
+    <h3 class="chat-title">一（12）班家长群</h3>
 
     <ul class="chat-list-info">
       <li class="chat-item cont-left">
         <div class="avatar"><img src="@/assets/logo.svg" alt="Avatar" /></div>
         <div class="chat-info">
-          <div class="name">一（13）班家长群</div>
+          <div class="name">一（12）班家长群</div>
           <div class="message">
             班主任
             彭老师：暑假是孩子们放松和休息的时间，但也可以是一个继续学习和发展的好机会。以下是一些建议，帮助家长和监护人做好孩子的暑期学习指导：
@@ -21,7 +21,7 @@
           <img src="@/assets/img/logo.png" alt="Avatar" />
         </div>
         <div class="chat-info">
-          <div class="name">一（13）班家长群</div>
+          <div class="name">一（12）班家长群</div>
           <div class="message">
             家长1：谢谢彭老师的建议！我会和孩子一起制定学习计划。
           </div>
@@ -30,7 +30,7 @@
       <li class="chat-item cont-left">
         <div class="avatar"><img src="@/assets/logo.svg" alt="Avatar" /></div>
         <div class="chat-info">
-          <div class="name">一（13）班家长群</div>
+          <div class="name">一（12）班家长群</div>
           <div class="message">
             班主任
             彭老师：不用客气。学习计划可以根据孩子的兴趣和需要灵活调整，关键是保持一个平衡的暑期生活。
@@ -42,14 +42,14 @@
           <img src="@/assets/img/logo.png" alt="Avatar" />
         </div>
         <div class="chat-info">
-          <div class="name">一（13）班家长群</div>
+          <div class="name">一（12）班家长群</div>
           <div class="message">家长2：非常有帮助！有什么推荐的书单吗？</div>
         </div>
       </li>
       <li class="chat-item cont-left">
         <div class="avatar"><img src="@/assets/logo.svg" alt="Avatar" /></div>
         <div class="chat-info">
-          <div class="name">一（13）班家长群</div>
+          <div class="name">一（12）班家长群</div>
           <div class="message">
             班主任
             彭老师：推荐一些适合孩子阅读的书籍，比如《小王子》、《哈利·波特》系列、《十万个为什么》等。也可以选择一些儿童科普读物和故事书。
