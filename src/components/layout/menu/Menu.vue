@@ -1,6 +1,8 @@
 <template>
   <div class="menu-box">
-    <h3><img src="@/assets/logo.svg" width="30" height="30" alt="" /></h3>
+    <h3 class="user-info">
+      <img src="@/assets/logo.svg" width="40" height="40" alt="" />
+    </h3>
     <ul class="hot-route-list">
       <li><img src="@/assets/img/chat.png" alt="" /></li>
       <li><img src="@/assets/img/user.png" alt="" /></li>
@@ -31,10 +33,18 @@
   z-index: 999;
   left: 0;
   top: 0;
-  padding: 60px 15px 30px;
+  padding: 60px 10px 30px;
   background: #e1e3e5;
+  .user-info {
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #fff;
+  }
   .hot-route-list {
-    padding: 60px 0;
+    padding: 40px 5px 60px;
     li {
       margin-bottom: 20px;
       padding: 2px 2px;
@@ -49,7 +59,8 @@
   .footer-mgt-list {
     position: absolute;
     bottom: 20px;
-    left: 15px;
+    left: 10px;
+    padding: 0 5px;
     li {
       margin-bottom: 20px;
       padding: 2px 2px;
