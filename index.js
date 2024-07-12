@@ -1,4 +1,4 @@
-const { app, BrowserWindow } = require('electron')
+const { app, BrowserWindow, ipcMain } = require('electron')
 const path = require('path')
 const waitOn = require('wait-on')
 
@@ -49,7 +49,7 @@ async function createWindow() {
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'), // 预加载脚本路径
       nodeIntegration: true, // 是否启用 Node.js 集成
-      contextIsolation: false, // 是否启用上下文隔离
+      contextIsolation: true, // 是否启用上下文隔离
       enableRemoteModule: true, // 是否启用 remote 模块
       spellcheck: false, // 是否启用拼写检查
       sandbox: false, // 是否启用沙盒模式
@@ -83,13 +83,20 @@ async function createWindow() {
     }
   })
 
+  // 监听渲染进程发送的消息
+  ipcMain.on('message-from-renderer', (event, arg) => {
+    console.log('渲染进程传递过来的数据: ', arg) // 打印消息
+    // 向渲染进程发送消息
+    event.sender.send('message-from-main', '主进程收到消息: ' + arg)
+  })
+
   const isDev = (await import('electron-is-dev')).default
 
   if (isDev) {
     // 等待开发服务器启动
     // await waitOn({ resources: ['http://localhost:3002'] })
     win.loadURL('http://localhost:3002/#/')
-    // win.webContents.openDevTools()
+    win.webContents.openDevTools()
   } else {
     // 加载生产构建文件
     win.loadFile(path.join(__dirname, 'dist', 'index.html'))
