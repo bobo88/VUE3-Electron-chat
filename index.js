@@ -82,11 +82,27 @@ async function createWindow() {
     }
   })
 
+  require('@electron/remote/main').initialize()
+  require('@electron/remote/main').enable(win.webContents)
+
   // 监听渲染进程发送的消息
   ipcMain.on('message-from-renderer', (event, arg) => {
     console.log('渲染进程传递过来的数据: ', arg) // 打印消息
     // 向渲染进程发送消息
     event.sender.send('message-from-main', '主进程收到消息: ' + arg)
+  })
+
+  // 监听渲染进程发送的消息
+  ipcMain.on('show-search-tc', (event, arg) => {
+    console.log('渲染进程传递过来的数据: ', arg) // 打印消息
+    // 打开新的窗口
+    const winNew = new BrowserWindow({
+      width: 800,
+      height: 600,
+      webPreferences: { nodeIntegration: true }
+    })
+    // winNew.loadFile('search.html')
+    winNew.loadURL('https://www.baidu.com')
   })
 
   const isDev = (await import('electron-is-dev')).default

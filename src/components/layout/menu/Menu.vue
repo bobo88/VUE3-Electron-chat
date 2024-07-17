@@ -7,10 +7,14 @@
       <li><img src="@/assets/img/chat.png" alt="" /></li>
       <li><img src="@/assets/img/user.png" alt="" /></li>
       <li><img src="@/assets/img/mgt.png" alt="" /></li>
-      <li><img src="@/assets/img/file.png" alt="" /></li>
+      <li @click="showFileTc">
+        <img src="@/assets/img/file.png" alt="" />
+      </li>
       <li><img src="@/assets/img/friend.png" alt="" /></li>
       <li><img src="@/assets/img/meta-line.png" alt="" /></li>
-      <li><img src="@/assets/img/search.png" alt="" /></li>
+      <li @click="showSearchTc">
+        <img src="@/assets/img/search.png" alt="" />
+      </li>
     </ul>
 
     <ul class="footer-mgt-list">
@@ -22,7 +26,17 @@
 </template>
 
 <script setup lang="ts">
-// import MenuList from "./MenuList.vue";
+const showFileTc = () => {
+  console.log('showFileTc')
+
+  // window.open('https://www.baidu.com/')
+  window.electron.createWindow()
+}
+
+const showSearchTc = () => {
+  console.log('showSearchTc')
+  window.electron.ipcRenderer.send('show-search-tc', 'search args')
+}
 </script>
 
 <style scoped lang="scss">
