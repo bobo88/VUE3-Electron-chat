@@ -59,7 +59,6 @@ async function createWindow() {
       defaultEncoding: 'utf-8', // 默认字符编码
       backgroundThrottling: true, // 当窗口失去焦点时是否暂停动画和计时器
       offscreen: false, // 是否启用离屏渲染
-      preload: path.join(__dirname, 'preload.js'), // 预加载脚本路径
       partition: null, // 指定会话分区
       zoomFactor: 1.0, // 默认缩放因子
       disableHtmlFullscreenWindowResize: false, // 是否禁用 HTML 全屏
